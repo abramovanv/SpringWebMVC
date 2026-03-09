@@ -14,7 +14,7 @@ public class PostService {
     this.repository = repository;
   }
 
-  public Collection<Post> all() {
+  public List<Post> all() {
     return repository.all();
   }
 
